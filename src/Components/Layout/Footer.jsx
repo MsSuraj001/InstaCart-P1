@@ -6,8 +6,8 @@ import IconFacebook from '../All_SVG/FaceBookSVG'
 
 function Footer() {
   return (
-    <footer className='h-[13vh] w-full flex justify-between items-center md:px-20 px-7 bg-slate-300'>
-        <div>
+    <footer className='h-[13vh] w-full flex md:justify-between justify-center items-center md:px-20 px-7 bg-slate-300'>
+        <div className='hidden md:block'>
             <p>Copyright 2020 some text for your choice</p>
         </div>
 
