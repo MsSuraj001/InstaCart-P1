@@ -8,18 +8,18 @@ import Layout from '../Layout/Layout'
 function Home() {
   return (
     <Layout>
-    <div className=' w-full flex flex-col md:flex-row'>
+    <div className='w-full flex flex-col md:flex-row'>
         {/* this is the left section */}
-      <div className='h-full md:[h-50%] w-full md:w-[50%] border-2 px-16 py-24'>
+      <div className='h-full md:[h-50%] w-full md:w-[50%] px-10 py-24 md:px-24'>
             <div className='text-start'>
                 <span className='font-bold tracking-widest'>HELLO WORLD,  </span><span className='font-bold text-blue-600 tracking-wide'>WE ARE</span>
             </div>
             <div>
-                <h1 className='font-bold text-[5rem] tracking-[.25rem] text-cyan-700'>MarkitUP</h1>
+                <h1 className=' font-bold text-[4rem] tracking-[.25rem] text-cyan-700'>MarkitUp</h1>
             </div>
             <div>
-                <span className='font-semibold text-[.70rem] mr-4'>A</span>
-                <span className='font-thin text-[1.7rem]'>Content Marketing Agency</span>
+                <span className='font-semibold text-[.70rem] mr-2'>A</span>
+                <span className='font-thin text-[1.5rem]'>Content Marketing Agency</span>
             </div>
 
             <div className='hidden md:block py-6'>
