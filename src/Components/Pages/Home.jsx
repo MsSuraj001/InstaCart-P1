@@ -44,8 +44,8 @@ function Home() {
         <h1>this is the right section</h1>
       </div>
 
-      <Service/>
     </div>
+      <Service/>
     </Layout>
   )
 }
