@@ -2,9 +2,12 @@ import React from 'react'
 import IconInstagram from '../All_SVG/InstaSVG'
 import IconLinkedin from '../All_SVG/LinkedinSVG'
 import IconTwitter from '../All_SVG/TwitterSVG'
+import Service from './Service'
+import Layout from '../Layout/Layout'
 
 function Home() {
   return (
+    <Layout>
     <div className=' w-full flex flex-col md:flex-row'>
         {/* this is the left section */}
       <div className='h-full md:[h-50%] w-full md:w-[50%] border-2 px-16 py-24'>
@@ -26,8 +29,6 @@ function Home() {
                     <IconInstagram/>
                     <IconLinkedin/>
                     <IconTwitter/>
-
-                   
                 </div>
 
                 {/* this is the contact button */}
@@ -42,7 +43,10 @@ function Home() {
       <div>
         <h1>this is the right section</h1>
       </div>
+
+      <Service/>
     </div>
+    </Layout>
   )
 }
 
