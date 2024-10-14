@@ -4,6 +4,8 @@ import IconLinkedin from '../All_SVG/LinkedinSVG'
 import IconTwitter from '../All_SVG/TwitterSVG'
 import Service from './Service'
 import Layout from '../Layout/Layout'
+import Spline from '@splinetool/react-spline';
+import Portfolio from './Portfolio'
 
 function Home() {
   return (
@@ -46,6 +48,7 @@ function Home() {
 
     </div>
       <Service/>
+      <Portfolio/>
     </Layout>
   )
 }
