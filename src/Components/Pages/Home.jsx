@@ -6,6 +6,7 @@ import Service from './Service'
 import Layout from '../Layout/Layout'
 import Spline from '@splinetool/react-spline';
 import Portfolio from './Portfolio'
+import SErviceA from './ServiceA'
 
 function Home() {
   return (
