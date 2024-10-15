@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import VidioEditingPage from './ProtfolioPages/VidioEditingPage'
 
 function Portfolio() {
   return (
@@ -12,7 +13,7 @@ function Portfolio() {
 
         {/* this is the all type div */}
         <div className='text-center font-bold gap-5 flex items-center justify-center pb-5'>
-            <div><Link to={'#'} element={"jdsk"}>All</Link></div>
+            <div><Link to={'#'} element={<VidioEditingPage/>}>All</Link></div>
             <div><Link to={'#'}>VIDIO EDITING</Link></div>
             <div><Link to={'#'}>THOMBLE</Link></div>
         </div>

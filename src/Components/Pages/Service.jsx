@@ -21,9 +21,10 @@ function Service() {
         clickable: true,
       }}
       modules={[Pagination]}
-      className='w-full flex flex-col sm:flex-row justify-center items-center px-16 py-12'>
+      className='w-full flex flex-col md:flex-row justify-center items-center px-16 py-12'>
 
-        <SwiperSlide className='w-full  md:w-1/2 lg:w-1/3 border-2 py-8 px-4 rounded-lg shadow-md'>
+        <div className='w-full  md:w-1/2 lg:w-1/3'>
+        <SwiperSlide className='  py-8 px-4 rounded-lg shadow-lg hover:shadow-md'>
           <h1 className='py-3 text-2xl font-serif text-center'>SOCIAL MEDIA MANAGMENT</h1>
           <h1 className='py-3 text-xl font-light'>Instagram linkden and more</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, beatae nihil accusantium molestiae pariatur quisquam maxime, a, aliquid iste laboriosam veniam quasi deserunt. Fuga natus, atque maxime cupiditate voluptas recusandae.</p>
@@ -32,7 +33,11 @@ function Service() {
             <a href='#' className='text-blue-500 py-3'>Learn More</a>
           </button>
         </SwiperSlide>
-        <SwiperSlide className='w-full  md:w-1/2 lg:w-1/3 border-2 py-8 px-4 rounded-lg shadow-md'>
+        </div>
+
+
+        <div className='w-full  md:w-1/2 lg:w-1/3'>
+        <SwiperSlide className='  py-8 px-4 rounded-lg shadow-lg hover:shadow-md'>
           <h1 className='py-3 text-2xl font-serif text-center'>SOCIAL MEDIA MANAGMENT</h1>
           <h1 className='py-3 text-xl font-light'>Instagram linkden and more</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, beatae nihil accusantium molestiae pariatur quisquam maxime, a, aliquid iste laboriosam veniam quasi deserunt. Fuga natus, atque maxime cupiditate voluptas recusandae.</p>
@@ -41,9 +46,11 @@ function Service() {
             <a href='#' className='text-blue-500 py-3'>Learn More</a>
           </button>
         </SwiperSlide>
+        </div>
 
 
-        <SwiperSlide className='w-full  md:w-1/2 lg:w-1/3 border-2 py-8 px-4 rounded-lg shadow-md'>
+        <div className='w-full  md:w-1/2 lg:w-1/3'>
+        <SwiperSlide className=' py-8 px-4 rounded-lg shadow-lg hover:shadow-md'>
           <div >
             <h1 className='py-3 text-2xl font-serif text-center'>SOCIAL MEDIA MANAGMENT</h1>
             <h1 className='py-3 text-xl font-light'>Instagram linkden and more</h1>
@@ -54,7 +61,10 @@ function Service() {
             </button>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='w-full  md:w-1/2 lg:w-1/3 border-2 py-8 px-4 rounded-lg shadow-md'>
+        </div>
+
+        <div className='w-full  md:w-1/2 lg:w-1/3'>
+        <SwiperSlide className=' py-8 px-4 rounded-lg shadow-lg hover:shadow-md'>
           <div >
             <h1 className='py-3 text-2xl font-serif text-center'>SOCIAL MEDIA MANAGMENT</h1>
             <h1 className='py-3 text-xl font-light'>Instagram linkden and more</h1>
@@ -65,7 +75,10 @@ function Service() {
             </button>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='w-full  md:w-1/2 lg:w-1/3 border-2 py-8 px-4 rounded-lg shadow-md'>
+        </div>
+
+        <div className='w-full  md:w-1/2 lg:w-1/3 border-2'>
+        <SwiperSlide className=' py-8 px-4 rounded-lg shadow-lg hover:shadow-md'>
           <div >
             <h1 className='py-3 text-2xl font-serif text-center'>SOCIAL MEDIA MANAGMENT</h1>
             <h1 className='py-3 text-xl font-light'>Instagram linkden and more</h1>
@@ -76,6 +89,7 @@ function Service() {
             </button>
           </div>
         </SwiperSlide>
+        </div>
 
       </Swiper>
     </div>
