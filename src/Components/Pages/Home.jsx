@@ -11,14 +11,14 @@ import SErviceA from './ServiceA'
 function Home() {
   return (
     <Layout>
-    <div className='w-full flex flex-col md:flex-row'>
+    <div className='w-full flex flex-col md:flex-row bg-[#222831] text-white'>
         {/* this is the left section */}
       <div className='h-full md:[h-50%] w-full md:w-[50%] px-10 py-24 md:px-24'>
             <div className='text-start'>
                 <span className='font-bold tracking-widest'>HELLO WORLD,  </span><span className='font-bold text-blue-600 tracking-wide'>WE ARE</span>
             </div>
             <div>
-                <h1 className=' font-bold text-[4rem] tracking-[.25rem] text-cyan-700'>MarkitUp</h1>
+                <h1 className=' font-bold text-[4rem] tracking-[.25rem] text-[#76ABAE]'>MarkitUp</h1>
             </div>
             <div>
                 <span className='font-semibold text-[.70rem] mr-2'>A</span>
@@ -36,7 +36,7 @@ function Home() {
 
                 {/* this is the contact button */}
                 <div className='py-5'>
-                    <button className='py-3 px-6 rounded-full border-2 shadow-md'>CONTACT US</button>
+                    <button className='py-3 px-6 rounded-full border-2 shadow-md '>CONTACT US</button>
                 </div>
             </div>
       </div>
